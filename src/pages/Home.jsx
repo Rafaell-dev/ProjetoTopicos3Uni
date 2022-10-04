@@ -40,12 +40,12 @@ export default function home() {
             </Form>
           </div>
 
-          <div className="container">
+          <div className="container ">
             <div className="row cols d-flex justify-content-center gap-5">
-              {dogs.map(dog => (
+              {dogs.map((dog) => (
                 <Card style={{ width: '18rem' }} className="p-0">
                   <Card.Img
-                    className="h-50 d-inline-block"
+                    className="img-responsive h-50"
                     variant="top"
                     src={dog.image.url}
                     alt={dog.name}
